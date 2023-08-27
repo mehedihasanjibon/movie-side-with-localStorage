@@ -1,5 +1,6 @@
 [
     {
+      "id": "01",
       "movieName": "The Dark Knight",
       "watchTime": 152,
       "description": "Gotham's protector battles the Joker's chaos.",
@@ -8,6 +9,7 @@
       "imdbRating": 9.0
     },
     {
+      "id": "02",
       "movieName": "The Shawshank Redemption",
       "watchTime": 142,
       "description": "Wrongfully imprisoned men bond over time.",
@@ -16,6 +18,7 @@
       "imdbRating": 9.3
     },
     {
+      "id": "03",
       "movieName": "Inception",
       "watchTime": 148,
       "description": "Dream thieves venture into a man's subconscious.",
@@ -24,6 +27,7 @@
       "imdbRating": 8.8
     },
     {
+      "id": "04",
       "movieName": "Forrest Gump",
       "watchTime": 142,
       "description": "Simple man becomes unwitting participant in historic events.",
@@ -32,6 +36,7 @@
       "imdbRating": 8.8
     },
     {
+      "id": "05",
       "movieName": "The Godfather",
       "watchTime": 175,
       "description": "Mafia family fights for control of organized crime.",
