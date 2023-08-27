@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className="movie-container">
+            <div className="movie-container row">
                 {
                     movies.map(movie => <SingleCart
                         key={movie.id}
