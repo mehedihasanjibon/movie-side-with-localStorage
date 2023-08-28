@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import SingleCart from '../SingleCart/SingleCart';
 
-const Home = () => {
+const Home = ({handleWatchTime}) => {
     const [movies ,setMovies] = useState([]);
 
     useEffect( () => {
         fetch('data.json')
         .then(res => res.json())
         .then(data => setMovies(data));
-    }, [])
+    }, []);
 
     return (
         <div>
@@ -17,6 +17,7 @@ const Home = () => {
                     movies.map(movie => <SingleCart
                         key={movie.id}
                         movie={movie}
+                        handleWatchTime={handleWatchTime}
                     ></SingleCart>)
                 }
             </div>

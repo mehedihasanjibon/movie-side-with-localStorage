@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SingleCart = ({movie}) => {
+const SingleCart = ({movie, handleWatchTime}) => {
     // console.log(props);
     // const {movie} = props;
     // console.log(movie);
 
-    const {poster,movieName,description,watchTime,imdbRating} = movie; 
+    const {poster, movieName, description, watchTime, imdbRating} = movie; 
 
     return (
         <div className='movie-card card text-center w-100 m-auto col-md-6'>
@@ -18,7 +18,7 @@ const SingleCart = ({movie}) => {
                     <p> WatchTime: {watchTime} </p>
                     <p> Rating: {imdbRating} </p>
                 </div>
-                <button className='btn btn-info w-75 m-auto'> Book Now </button>
+                <button onClick={()=> handleWatchTime(watchTime)} className='btn btn-info w-75 m-auto'> Book Now </button>
         </div>
     );
 };
