@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SideCart = () => {
+const SideCart = ({watchTime}) => {
     return (
         <div>
             this is side cart
